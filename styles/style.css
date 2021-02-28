@@ -1,0 +1,159 @@
+#main {
+  width: 100vw;
+  color: #2f464f;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.title1 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.title2 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.title3 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.button1 {
+  color: #2f464f;
+  font-weight: bolder;
+  border: #2f464f;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.link1 {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #2f464f;
+}
+
+.link1:hover {
+  color: #eccf7b;
+}
+
+.space-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #e6e7e8;
+}
+
+.header__logo {
+  width: 200px;
+  height: 100%;
+  background-color: lightcoral;
+  margin: 0;
+}
+
+.navbar {
+  font-weight: bolder;
+  width: 700px;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  text-align: center;
+}
+
+.hero__greeting {
+  letter-spacing: 3px;
+  padding-top: 80px;
+}
+
+.hero__skills {
+  width: 50%;
+  margin: 70px auto 0 auto;
+  font-weight: bolder;
+}
+
+.bigM {
+  width: 100%;
+  height: 400px;
+  background-color: #a2c7c3;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.bigM__logo {
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  background-color: sandybrown;
+  padding-top: 80px;
+}
+
+.testimonials {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+
+.testimonials__container {
+  width: 50%;
+  margin: auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.testimonials__logo {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  background-color: cornflowerblue;
+}
+
+.testimonials__dots {
+  height: 60px;
+  width: 60px;
+  margin: 0 auto 60px auto;
+  background-color: cornflowerblue;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #e6e7e8;
+  text-align: center;
+}
+
+.footer__logo {
+  height: 120px;
+  width: 120px;
+  background-color: lightseagreen;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

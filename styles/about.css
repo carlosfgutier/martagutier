@@ -1,0 +1,125 @@
+#main {
+  width: 100vw;
+  color: #2f464f;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.title1 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.title2 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.title3 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.button1 {
+  color: #2f464f;
+  font-weight: bolder;
+  border: #2f464f;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.link1 {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #2f464f;
+}
+
+.link1:hover {
+  color: #eccf7b;
+}
+
+.space-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #e6e7e8;
+}
+
+.header__logo {
+  width: 200px;
+  height: 100%;
+  background-color: lightcoral;
+  margin: 0;
+}
+
+.navbar {
+  font-weight: bolder;
+  width: 700px;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about {
+  width: 100vw;
+  height: 88vh;
+}
+
+.about__img {
+  width: 45%;
+  height: 100%;
+}
+
+.about__img__photo {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: rebeccapurple;
+}
+
+.about__content {
+  width: 60%;
+  height: 100%;
+}
+
+.quote {
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #e6e7e8;
+  text-align: center;
+}
+
+.footer__logo {
+  height: 120px;
+  width: 120px;
+  background-color: lightseagreen;
+  margin: auto;
+}
+/*# sourceMappingURL=about.css.map */

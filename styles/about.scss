@@ -1,0 +1,125 @@
+$min-container-height: 100px;
+
+$azul-oscuro: #2f464f;
+$azul-claro: #a2c7c3;
+$amarillo: #eccf7b;
+$blanco-grizoso: #e6e7e8;
+$blanco-amarilloso: #f3eedb;
+
+
+#main {
+    width: 100vw;
+    color: $azul-oscuro;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.title1 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.title2 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.title3 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.button1 {
+    color: $azul-oscuro;
+    font-weight: bolder;
+    border: $azul-oscuro;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.link1 {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: $azul-oscuro;
+
+    &:hover {
+        color: $amarillo;
+    }
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    height: $min-container-height;
+    background-color: $blanco-grizoso;
+
+    &__logo {
+        width: 200px;
+        height: 100%;
+        background-color: lightcoral;
+        margin: 0;
+    }
+}
+
+.navbar {
+    font-weight: bolder;
+    width: 700px;
+    height: 100%;
+    align-items: center;
+}
+
+.about {
+    width: 100vw;
+    height: 88vh;
+    
+    &__img {
+        width: 45%;
+        height: 100%;
+
+        &__photo {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            background-color: rebeccapurple;
+        }
+    }
+
+    &__content {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+.quote {
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer {
+    width: 100%;
+    height: $min-container-height * 1.5;
+    background-color: $blanco-grizoso;
+    text-align: center;
+
+    &__logo {
+        height: 120px;
+        width: 120px;
+        background-color: lightseagreen;
+        margin: auto;
+    }
+} 
+
