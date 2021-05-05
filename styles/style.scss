@@ -47,7 +47,7 @@ $blanco-amarilloso: #f3eedb;
 }
 
 
-.link1 {
+.zelda {
     font-weight: bolder;
     text-decoration: underline;
     color: $azul-oscuro;
@@ -67,14 +67,14 @@ $blanco-amarilloso: #f3eedb;
     justify-content: space-between;
 }
 
-.header {
+.cod {
     width: 100%;
     height: $min-container-height;
     background-color: $blanco-grizoso;
 
     &__logo {
         width: 200px;
-        height: 50%;
+        height: 100%;
         margin: 0;
         padding: 26px 10px;
 
@@ -85,7 +85,7 @@ $blanco-amarilloso: #f3eedb;
     }
 }
 
-.navbar {
+.navi {
     font-weight: bolder;
     color: $azul-oscuro;
     width: 700px;
