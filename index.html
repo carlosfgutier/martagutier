@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Marta Gutierrez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/style.css" />
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet">
 
@@ -19,11 +18,16 @@
 
     <main id="main">
         <header class="header space-between">
-            <div class="header__logo">LOGO</div>
+            <div class="header__logo link1">
+                <a href="./index.html">
+                    <img src="./src/lilob.png"
+                    alt="Logo for Marta Gutierrez. Clicking will take you to the home page.">
+                </a>
+            </div>
             <nav class="navbar space-around">
                 <p><a href="./pages/design.html">DESIGN</a></p>
                 <p><a href="./pages/about.html">ABOUT</a></p>
-                <p><a href="./contact/about.html">CONTACT</a></p>
+                <p><a href="./pages/contact.html">CONTACT</a></p>
             </nav>
         </header>
 
@@ -33,33 +37,94 @@
             </div>
             <div class="hero__skills space-around">
                 <h3>GRAPHIC DESIGN</h3>
+                <img src="../src/mg-08.png" alt="Logo for Marta Gutierrez">
                 <h3>BRANDING</h3>
+                <img src="../src/mg-08.png" alt="Logo for Marta Gutierrez">
                 <h3>ADVERTISING</h3>
+                <img src="../src/mg-08.png" alt="Logo for Marta Gutierrez">
                 <h3>WEB DESIGN</h3>
+                <img src="../src/mg-08.png" alt="Logo for Marta Gutierrez">
                 <h3>PACKAGING</h3>
             </div>
         </section>
 
         <section class="bigM">
             <div class="bigM__logo">
-                M
+                <img src="../src/w1.png"
+                    alt="Logo for Marta Gutierrez">
             </div>
-            <input class="button1" type="button" value="PORTFOLIO">
+            <a href="./pages/design.html"><input class="button1" type="button" value="PORTFOLIO"></a>
         </section>
 
         <section class="testimonials">
             <div class="testimonials__container">
-                <h2 class="testimonials__title title2">TESTIMONIALS</h2>
-                <div class="testimonials__logo">M</div>
-                <p>Created prototypes, developed responsive UIs, and facilitated backend integration for a tool that allows users to find their right size across multiple brands using Adobe XD, HTML, CSS, JavaScript, React, ES6, Express, Node.js, mySQL, and Sequelize<</p>    
-                <div class="testimonials__dots">dots dots dots</div>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            “Dentro de los procesos creativos es fundamental encontrar a una persona que sepa leer entre las líneas. Marta
+                            se destaca por ser una persona comprometida, dedicada y creativa que, dentro de cada proyecto, brinda una
+                            experiencia de trabajo agradable con resultados impecables”
+                            <br><br>
+                            - Gabriela Holguin - CEO Canaria Group
+                    
+                        </div>
+                    
+                        <div class="item">
+                            “Estoy enormemente agradecida con Marta por su gran disposición para ayudarnos con la renovación de nuestra
+                            marca. Puedo decir que Granatta tiene un antes y un después. Su apoyo fue incondicional y muy valioso para
+                            nuestro crecimiento”
+                            <br>
+                            <br>
+                            - Nora Granada, Creadora de Granatta
+                    
+                        </div>
+                    
+                        <div class="item">
+                            “Marta logró plasmar la esencia de Granatta, a través de las diferentes estrategias del branding renovó y superó
+                            las expectativas en el rediseño del logo y etiquetas. Siempre trabajó de nuestra mano y tuvo muy en cuenta lo
+                            que queríamos expresar en la marca. Gracias a ella Granatta hecho en casa tiene una nueva imagen que ha tenido
+                            muy buena acogida con nuestros clientes y nosotros estamos felices”
+                            <br>
+                            <br>
+                            - Luisa Moreno, Team Granatta
+                        </div>
+                        <div class="item">
+                            “Trabajar con Marta ha sido una experiencia de definición y creatividad para nuestra Asociación; donde con su
+                            acompañamiento logramos felizmente proyectar en nuestro logo razon empresarial”
+                            <br><br>
+                            - Encantigo
+                    
+                        </div>
+                        <div class="item">
+                            “Trabajar con Marta fue un gran voto de confianza. Inicialmente queríamos la renovación del logo y luego ella nos
+                            ayudó con la creación de las etiquetas también. El re-diseño del branding superó nuestras expectativas y reflejó
+                            cómo tal la identidad de Granatta. Además la nueva imagen tuvo muy buena acogida en nuestros clientes y obtuvimos
+                            nuevos seguidores. Fue un proceso muy divertido donde aprendimos mucho y donde Marta nos tuvo mucha paciencia!”
+                            <br><br>
+                            - Laura Moreno - Team Granatta
+                        
+                        </div>
+                        </div>
+                        <br>
+                </div>
                 <input class="button1" type="button" value="CONTACT">
             </div>
         </section>
 
         <footer class="footer">
             <div class="footer__logo">
-                M
+                <img src="../src/lilob.png"
+                    alt="Logo for Marta Gutierrez. Clicking will take you to the home page.">
             </div>
             <address>
                 <a class="link1" href="mailto:hola@martagutier.com">hola@martagutier.com</a>
@@ -69,6 +134,10 @@
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="logic.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
+
+
 
 </html>

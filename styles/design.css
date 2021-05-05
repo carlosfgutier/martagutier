@@ -1,0 +1,141 @@
+#main {
+  width: 100vw;
+  color: #2f464f;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.title1 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.title2 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.title3 {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.button1 {
+  color: #2f464f;
+  font-weight: bolder;
+  border: #2f464f;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  padding: 6px 4px;
+  cursor: pointer;
+}
+
+.link1 {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #2f464f;
+}
+
+.link1:hover {
+  color: #a2c7c3;
+}
+
+.space-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #e6e7e8;
+}
+
+.header__logo {
+  width: 200px;
+  height: 50%;
+  margin: 0;
+  padding: 26px 10px;
+}
+
+.header__logo img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar {
+  font-weight: bolder;
+  color: #2f464f;
+  width: 700px;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar a {
+  color: #2f464f;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #a2c7c3;
+}
+
+#content {
+  margin-top: 80px;
+  height: auto;
+  width: 100vw;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper > a img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.contact {
+  height: 100px;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #e6e7e8;
+  text-align: center;
+}
+
+.footer__logo {
+  height: auto;
+  width: 150px;
+  margin: auto;
+  padding: 25px;
+}
+
+.footer__logo img {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=design.css.map */

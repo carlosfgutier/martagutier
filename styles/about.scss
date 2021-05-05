@@ -6,11 +6,11 @@ $amarillo: #eccf7b;
 $blanco-grizoso: #e6e7e8;
 $blanco-amarilloso: #f3eedb;
 
-
 #main {
     width: 100vw;
     color: $azul-oscuro;
     font-family: 'Sulphur Point', sans-serif;
+    position: relative;
 }
 
 .title1 {
@@ -36,9 +36,9 @@ $blanco-amarilloso: #f3eedb;
     font-weight: bolder;
     border: $azul-oscuro;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     background-color: white;
-    padding: 4px;
+    padding: 0px 4px;
     cursor: pointer;
 }
 
@@ -69,44 +69,110 @@ $blanco-amarilloso: #f3eedb;
 
     &__logo {
         width: 200px;
-        height: 100%;
-        background-color: lightcoral;
+        height: 50%;
         margin: 0;
+        padding: 26px 10px;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
     }
 }
 
 .navbar {
     font-weight: bolder;
+    color: $azul-oscuro;
     width: 700px;
     height: 100%;
     align-items: center;
+
+    a {
+        color: $azul-oscuro;
+        text-decoration: none;
+
+        &:hover {
+            color: $azul-claro;
+        }
+    }
+}
+
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+
+    img {
+        height: auto;
+        width: 100%;
+        opacity: 0.2;
+    }
 }
 
 .about {
     width: 100vw;
-    height: 88vh;
+    height: 80vh;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
     
     &__img {
-        width: 45%;
+        width: 35%;
         height: 100%;
+        text-align: center;
+
 
         &__photo {
-            width: 80%;
-            height: auto;
-            margin: auto;
-            background-color: rebeccapurple;
+            width: auto;
+            height: 500px;
         }
     }
 
     &__content {
-        width: 60%;
-        height: 100%;
+        width: 55%;
+        height: auto;
+        line-height: 1.5rem;
+    }
+
+    &__buttons {
+        width: 20%;
+        display: flex;
     }
 }
 
-.quote {
+.values {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+
+    &__content {
+        height: auto;
+        width: 50%;
+        margin: 0% 0% 0% 40%;
+        position: relative;
+        font-weight: bolder;
+
+        &__title {
+
+            h2 {
+                text-align: center;
+                width: 45%;
+                padding: 100px 0 150px 0;
+            }
+        }
+
+        &__decor {
+            position: absolute;
+            left: -150px;
+            bottom: 20px;
+            transform: rotateZ(90deg);
+        }
+    }
+
+    img {
+        width: 200px;
+        height: 20px;
+    }
 }
 
 .footer {
@@ -116,10 +182,15 @@ $blanco-amarilloso: #f3eedb;
     text-align: center;
 
     &__logo {
-        height: 120px;
-        width: 120px;
-        background-color: lightseagreen;
+        height: auto;
+        width: 150px;
         margin: auto;
+        padding: 25px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 } 
 

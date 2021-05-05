@@ -27,10 +27,14 @@
   font-weight: bolder;
   border: #2f464f;
   border-style: solid;
-  border-width: 2px;
-  background-color: white;
-  padding: 4px;
+  border-width: 1px;
+  background-color: transparent;
+  padding: 6px 4px;
   cursor: pointer;
+}
+
+.button1:focus {
+  outline: none;
 }
 
 .link1 {
@@ -40,7 +44,7 @@
 }
 
 .link1:hover {
-  color: #eccf7b;
+  color: #a2c7c3;
 }
 
 .space-around {
@@ -68,18 +72,33 @@
 
 .header__logo {
   width: 200px;
-  height: 100%;
-  background-color: lightcoral;
+  height: 50%;
   margin: 0;
+  padding: 26px 10px;
+}
+
+.header__logo img {
+  height: 100%;
+  width: auto;
 }
 
 .navbar {
   font-weight: bolder;
+  color: #2f464f;
   width: 700px;
   height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navbar a {
+  color: #2f464f;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #a2c7c3;
 }
 
 .hero {
@@ -100,25 +119,33 @@
   font-weight: bolder;
 }
 
+.hero__skills img {
+  height: 20px;
+  width: auto;
+}
+
 .bigM {
   width: 100%;
-  height: 400px;
+  height: 450px;
   background-color: #a2c7c3;
   text-align: center;
-  padding-top: 125px;
 }
 
 .bigM__logo {
-  height: 100px;
-  width: 200px;
-  margin: auto;
-  background-color: sandybrown;
-  padding-top: 80px;
+  height: 240px;
+  width: auto;
+  margin: auto auto 30px auto;
+  padding-top: 115px;
+}
+
+.bigM__logo img {
+  height: 100%;
+  width: auto;
 }
 
 .testimonials {
   width: 100%;
-  height: 600px;
+  height: 500px;
   background-color: white;
 }
 
@@ -151,9 +178,23 @@
 }
 
 .footer__logo {
-  height: 120px;
-  width: 120px;
-  background-color: lightseagreen;
+  height: auto;
+  width: 150px;
   margin: auto;
+  padding: 25px;
+}
+
+.footer__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-inner {
+  height: 200px;
+}
+
+.carousel-indicators li {
+  border: 1px solid #eccf7b;
+  background-color: #eccf7b;
 }
 /*# sourceMappingURL=style.css.map */

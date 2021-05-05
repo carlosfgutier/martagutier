@@ -36,11 +36,16 @@ $blanco-amarilloso: #f3eedb;
     font-weight: bolder;
     border: $azul-oscuro;
     border-style: solid;
-    border-width: 2px;
-    background-color: white;
-    padding: 4px;
+    border-width: 1px;
+    background-color: transparent;
+    padding: 6px 4px;
     cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
 }
+
 
 .link1 {
     font-weight: bolder;
@@ -48,7 +53,7 @@ $blanco-amarilloso: #f3eedb;
     color: $azul-oscuro;
 
     &:hover {
-        color: $amarillo;
+        color: $azul-claro;
     }
 }
 
@@ -69,17 +74,32 @@ $blanco-amarilloso: #f3eedb;
 
     &__logo {
         width: 200px;
-        height: 100%;
-        background-color: lightcoral;
+        height: 50%;
         margin: 0;
+        padding: 26px 10px;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
     }
 }
 
 .navbar {
     font-weight: bolder;
+    color: $azul-oscuro;
     width: 700px;
     height: 100%;
     align-items: center;
+
+    a {
+        color: $azul-oscuro;
+        text-decoration: none;
+
+        &:hover {
+            color: $azul-claro;
+        }
+    }
 }
 
 .hero {
@@ -98,29 +118,37 @@ $blanco-amarilloso: #f3eedb;
         width: 50%;
         margin: 70px auto 0 auto;
         font-weight: bolder;
+
+        img {
+            height: 20px;
+            width: auto;
+        }
     }
 }
 
 .bigM {
     width: 100%;
-    height: $min-container-height * 4;
+    height: $min-container-height * 4.5;
     background-color: $azul-claro;
     text-align: center;
-    padding-top: 125px;
 
     &__logo {
-        height: 100px;
-        width: 200px;
-        margin: auto;
-        background-color: sandybrown;
-        padding-top: 80px;
+        height: 240px;
+        width: auto;
+        margin: auto auto 30px auto;
+        padding-top: 115px;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
     }
 
 }
 
 .testimonials {
     width: 100%;
-    height: $min-container-height * 6;
+    height: $min-container-height * 5;
     background-color: white;
 
     &__container {
@@ -152,10 +180,26 @@ $blanco-amarilloso: #f3eedb;
     text-align: center;
 
     &__logo {
-        height: 120px;
-        width: 120px;
-        background-color: lightseagreen;
+        height: auto;
+        width: 150px;
         margin: auto;
+        padding: 25px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 } 
 
+.carousel-inner {
+    height: 200px;
+}
+
+.carousel-indicators {
+
+    li {
+        border: 1px solid $amarillo;
+        background-color: $amarillo;
+    }
+}
