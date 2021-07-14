@@ -107,12 +107,24 @@ $blanco-amarilloso: #f3eedb;
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+  a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    &:hover {
+        transform: rotate(.5deg);
+        filter: contrast(110%);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
   }
-  
-  .wrapper > a img {
-    max-width: 100%;
-    cursor: pointer;
-  }
+}
 
 .contact {
     height: $min-container-height;
@@ -137,4 +149,56 @@ $blanco-amarilloso: #f3eedb;
         }
     }
 } 
+
+
+// MODAL FORMATTING
+
+.close {
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+
+.layover {
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#modal_containter {
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(255, 255, 255, 0.877);
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+}
+
+.modal {
+    width: 50%;
+    margin: auto;
+}
+
+.content_holder {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.contentImg {
+    width: 100%;
+    height: 100%;    
+}
+
+.coming_soon {
+        font-size: 100px;
+        text-align: center;
+        padding-top: 50%;   
+}
+
 
