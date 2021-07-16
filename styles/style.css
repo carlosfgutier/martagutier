@@ -197,4 +197,48 @@
   border: 1px solid #eccf7b;
   background-color: #eccf7b;
 }
+
+@media (max-width: 575.98px) {
+  .hero {
+    height: 143px;
+    margin: 35px 0px;
+  }
+  .hero__greeting {
+    letter-spacing: 3px;
+    padding-top: 0px;
+  }
+  .hero__skills {
+    width: 95%;
+    margin: 0px auto;
+  }
+  .hero__skills h3 {
+    font-size: .6rem;
+  }
+  .hero__skills img {
+    height: 20px;
+    width: auto;
+    position: relative;
+    bottom: 5px;
+  }
+  .title1 {
+    margin: 0px 20px 60px 20px;
+  }
+  .bigM {
+    height: 490px;
+  }
+  .testimonials__container {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+  }
+  .carousel-indicators {
+    bottom: 7px;
+  }
+  .carousel {
+    bottom: 50px;
+  }
+  .carousel-inner {
+    height: 260px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

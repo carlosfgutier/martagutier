@@ -203,3 +203,72 @@ $blanco-amarilloso: #f3eedb;
         background-color: $amarillo;
     }
 }
+
+
+@media (max-width: 575.98px) { 
+
+    .hero {
+        height: 143px;
+        margin: 35px 0px;
+    
+        &__greeting {
+            letter-spacing: 3px;
+            padding-top: 0px;
+        } 
+    
+        &__skills {
+            width: 95%;
+            margin: 0px auto;
+
+            h3 {
+                font-size: .6rem;
+            }
+    
+            img {
+                height: 20px;
+                width: auto;
+                position: relative;
+                bottom: 5px;
+            }
+        }
+    }
+
+    .title1 {
+        margin: 0px 20px 60px 20px;
+    }
+
+    .bigM {
+        height: 490px;
+    }
+
+    .testimonials {
+    
+        &__container {
+            width: 80%;
+            margin: auto;
+            padding-top: 100px;
+        }
+    }
+
+    .carousel-indicators {
+        bottom: 7px;
+    }
+
+    .carousel {
+        bottom: 50px;
+    }
+    
+    .carousel-inner {
+        height: 260px;
+    }
+
+
+}
+// // Small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px) { ... }
+
+// // Medium devices (tablets, less than 992px)
+// @media (max-width: 991.98px) { ... }
+
+// // Large devices (desktops, less than 1200px)
+// @media (max-width: 1199.98px) { ... }
