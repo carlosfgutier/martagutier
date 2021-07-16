@@ -195,4 +195,29 @@
   width: 100%;
   height: auto;
 }
+
+@media (max-width: 575.98px) {
+  .header {
+    margin-bottom: 30px;
+  }
+  .backdrop {
+    display: none;
+  }
+  .about {
+    display: inline;
+  }
+  .about__content {
+    width: 80%;
+    margin: 30px auto;
+    text-align: justify;
+  }
+  .about__buttons {
+    width: auto;
+    text-align: center;
+    display: inherit;
+  }
+  .about__img {
+    width: auto;
+  }
+}
 /*# sourceMappingURL=about.css.map */

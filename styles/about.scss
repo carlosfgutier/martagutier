@@ -194,3 +194,33 @@ $blanco-amarilloso: #f3eedb;
     }
 } 
 
+@media (max-width: 575.98px) { 
+
+    .header {
+        margin-bottom: 30px;
+    }
+    
+    .backdrop {
+        display: none;
+    }
+
+    .about {
+        display: inline;
+
+        &__content {
+            width: 80%;
+            margin: 30px auto;
+            text-align: justify;
+        }
+
+        &__buttons {
+            width: auto;
+            text-align: center;
+            display: inherit;
+        }
+
+        &__img {
+            width: auto;
+        }
+    }
+}
