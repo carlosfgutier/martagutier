@@ -129,8 +129,8 @@
 }
 
 .contact {
-  height: 100px;
-  width: 100%;
+  margin: 50px auto;
+  text-align: center;
 }
 
 .footer {
@@ -214,5 +214,15 @@
   font-size: 100px;
   text-align: center;
   padding-top: 50%;
+}
+
+@media (max-width: 575.98px) {
+  #content {
+    margin-top: 0px;
+  }
+  .wrapper {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
 }
 /*# sourceMappingURL=design.css.map */
