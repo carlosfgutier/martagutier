@@ -228,6 +228,14 @@ $blanco-amarilloso: #f3eedb;
     .wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .modal {
+        width: 100%;
+    }
+
+    .close {
+        right: 17px;
+    }
 }
 
 
